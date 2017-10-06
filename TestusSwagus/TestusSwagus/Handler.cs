@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace TestusSwagus
 {
-    class Program
+    class Handler<T>
     {
-        private static NonStaticClass nsc;
+        private dynamic member;
 
-        static void Main(string[] args)
+        public Handler(object bla)
         {
-            nsc = new NonStaticClass();
-        }   
+
+        }
+
+
     }
 }

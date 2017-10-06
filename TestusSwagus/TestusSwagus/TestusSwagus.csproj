@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoggiMaster.cs" />
+    <Compile Include="GummiBand.cs" />
+    <Compile Include="Handler.cs" />
+    <Compile Include="IBand.cs" />
+    <Compile Include="KleebeBand.cs" />
+    <Compile Include="NonStaticClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

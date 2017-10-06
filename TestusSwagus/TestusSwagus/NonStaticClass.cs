@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestusSwagus
 {
-    class Program
+    class NonStaticClass
     {
-        private static NonStaticClass nsc;
-
-        static void Main(string[] args)
+        public NonStaticClass()
         {
-            nsc = new NonStaticClass();
-        }   
+            Handler<DoggiMaster> swagus = new Handler<DoggiMaster>();
+        }
     }
 }
